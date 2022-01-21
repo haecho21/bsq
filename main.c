@@ -6,13 +6,11 @@
 /*   By: siwlee <siwlee@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 17:56:51 by siwlee            #+#    #+#             */
-/*   Updated: 2022/01/21 20:08:17 by siwlee           ###   ########.fr       */
+/*   Updated: 2022/01/21 20:12:24 by siwlee           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
-#include <stdlib.h>
+#include "every.h"
 #include <stdio.h>
-#include <fcntl.h>
 int	main(void)
 {
 	int	fd;
