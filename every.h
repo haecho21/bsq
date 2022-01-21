@@ -6,7 +6,7 @@
 /*   By: siwlee <siwlee@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 20:09:20 by siwlee            #+#    #+#             */
-/*   Updated: 2022/01/21 20:11:46 by siwlee           ###   ########.fr       */
+/*   Updated: 2022/01/21 20:24:33 by siwlee           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,11 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdlib.h>
+
+typedef struct s_rectangle {
+	int	row;
+	int	col;
+}t_rec;
 
 
 #endif
